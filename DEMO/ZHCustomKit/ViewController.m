@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "UILabel+qbCopy.h"
 #import "TestObject.h"
-#import "TestModel.h"
 
 @interface ViewController ()
 
@@ -30,10 +29,7 @@
     
     TestObject *obj1 = [TestObject new];
     NSLog(@"obj1 = %@",obj1);
-    
-    
-    TestModel *model1 = [TestModel new];
-    NSLog(@"model1 = %@",model1);
+     
     
 }
 

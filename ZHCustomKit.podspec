@@ -16,16 +16,16 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZHCustomKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A summary of ZHCustomKit."
   spec.description  = "a repository demo, is create for test for use cocoapods manager"
   spec.homepage     = "https://github.com/lovt/ZHCustomKit"  
-  spec.source       = { :git => "https://github.com/lovt/ZHCustomKit.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/lovt/ZHCustomKit.git", :tag => "#{spec.version}" }
   spec.license      = { :type => "MIT", :file => "LICENSE" } 
   spec.author       = { "lovt" => "18381671632@163.com" }
   spec.platform     = :ios, "8.0"
 
-  spec.source_files = "Framework/TestObject.h"
+  spec.source_files = 'ZHCustomKit/TestObject.{h,m}'
 
 
 
@@ -102,8 +102,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+##  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+##  spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

@@ -13,7 +13,6 @@
 		96B2B4D022363881001F916E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B2B4CF22363881001F916E /* Assets.xcassets */; };
 		96B2B4D322363881001F916E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B2B4D122363881001F916E /* LaunchScreen.storyboard */; };
 		96B2B4D622363881001F916E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B4D522363881001F916E /* main.m */; };
-		96B2B50C22364822001F916E /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B50B22364822001F916E /* TestModel.m */; };
 		96B2B52C22364C18001F916E /* NSDictionary+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B50F22364C18001F916E /* NSDictionary+Swizzle.m */; };
 		96B2B52D22364C18001F916E /* NSArray+Swizzing.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B51022364C18001F916E /* NSArray+Swizzing.m */; };
 		96B2B52E22364C18001F916E /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B51422364C18001F916E /* TestObject.m */; };
@@ -41,8 +40,6 @@
 		96B2B4D222363881001F916E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B2B4D422363881001F916E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B2B4D522363881001F916E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96B2B50A22364822001F916E /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
-		96B2B50B22364822001F916E /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		96B2B50F22364C18001F916E /* NSDictionary+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Swizzle.m"; sourceTree = "<group>"; };
 		96B2B51022364C18001F916E /* NSArray+Swizzing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzing.m"; sourceTree = "<group>"; };
 		96B2B51122364C18001F916E /* NSDictionary+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Swizzle.h"; sourceTree = "<group>"; };
@@ -104,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				96B2B50D22364C18001F916E /* ZHCustomKit */,
-				96B2B50922364818001F916E /* TestObject */,
 				96B2B4C62236387F001F916E /* AppDelegate.h */,
 				96B2B4C72236387F001F916E /* AppDelegate.m */,
 				96B2B4C92236387F001F916E /* ViewController.h */,
@@ -118,22 +114,13 @@
 			path = ZHCustomKit;
 			sourceTree = "<group>";
 		};
-		96B2B50922364818001F916E /* TestObject */ = {
-			isa = PBXGroup;
-			children = (
-				96B2B50A22364822001F916E /* TestModel.h */,
-				96B2B50B22364822001F916E /* TestModel.m */,
-			);
-			path = TestObject;
-			sourceTree = SOURCE_ROOT;
-		};
 		96B2B50D22364C18001F916E /* ZHCustomKit */ = {
 			isa = PBXGroup;
 			children = (
 				96B2B50E22364C18001F916E /* QBSwizzing */,
+				96B2B51522364C18001F916E /* QBCategory */,
 				96B2B51322364C18001F916E /* TestObject.h */,
 				96B2B51422364C18001F916E /* TestObject.m */,
-				96B2B51522364C18001F916E /* QBCategory */,
 			);
 			name = ZHCustomKit;
 			path = ../../ZHCustomKit;
@@ -142,10 +129,10 @@
 		96B2B50E22364C18001F916E /* QBSwizzing */ = {
 			isa = PBXGroup;
 			children = (
-				96B2B50F22364C18001F916E /* NSDictionary+Swizzle.m */,
+				96B2B51222364C18001F916E /* NSArray+Swizzing.h */,
 				96B2B51022364C18001F916E /* NSArray+Swizzing.m */,
 				96B2B51122364C18001F916E /* NSDictionary+Swizzle.h */,
-				96B2B51222364C18001F916E /* NSArray+Swizzing.h */,
+				96B2B50F22364C18001F916E /* NSDictionary+Swizzle.m */,
 			);
 			path = QBSwizzing;
 			sourceTree = "<group>";
@@ -153,28 +140,28 @@
 		96B2B51522364C18001F916E /* QBCategory */ = {
 			isa = PBXGroup;
 			children = (
-				96B2B51622364C18001F916E /* UIView+qbFrame.m */,
-				96B2B51722364C18001F916E /* UIFont+qbExtension.h */,
-				96B2B51822364C18001F916E /* UIButton+qbLayoutInset.h */,
-				96B2B51922364C18001F916E /* NSString+qbExtension.h */,
-				96B2B51A22364C18001F916E /* UILabel+qbCopy.h */,
-				96B2B51B22364C18001F916E /* UIViewController+qbExtension.h */,
-				96B2B51C22364C18001F916E /* UIImage+qbColor.h */,
-				96B2B51D22364C18001F916E /* NSDate+qbExtension.m */,
-				96B2B51E22364C18001F916E /* UIColor+qbExtension.m */,
-				96B2B51F22364C18001F916E /* UITextView+qbPlaceholder.h */,
-				96B2B52022364C18001F916E /* UIImage+qbExtension.m */,
-				96B2B52122364C18001F916E /* UIButton+qbLayoutInset.m */,
-				96B2B52222364C18001F916E /* UIFont+qbExtension.m */,
-				96B2B52322364C18001F916E /* UIView+qbFrame.h */,
-				96B2B52422364C18001F916E /* UIViewController+qbExtension.m */,
-				96B2B52522364C18001F916E /* UILabel+qbCopy.m */,
-				96B2B52622364C18001F916E /* NSString+qbExtension.m */,
-				96B2B52722364C18001F916E /* UIImage+qbExtension.h */,
-				96B2B52822364C18001F916E /* UITextView+qbPlaceholder.m */,
-				96B2B52922364C18001F916E /* UIColor+qbExtension.h */,
 				96B2B52A22364C18001F916E /* NSDate+qbExtension.h */,
+				96B2B51D22364C18001F916E /* NSDate+qbExtension.m */,
+				96B2B51922364C18001F916E /* NSString+qbExtension.h */,
+				96B2B52622364C18001F916E /* NSString+qbExtension.m */,
+				96B2B51822364C18001F916E /* UIButton+qbLayoutInset.h */,
+				96B2B52122364C18001F916E /* UIButton+qbLayoutInset.m */,
+				96B2B52922364C18001F916E /* UIColor+qbExtension.h */,
+				96B2B51E22364C18001F916E /* UIColor+qbExtension.m */,
+				96B2B51722364C18001F916E /* UIFont+qbExtension.h */,
+				96B2B52222364C18001F916E /* UIFont+qbExtension.m */,
+				96B2B51C22364C18001F916E /* UIImage+qbColor.h */,
 				96B2B52B22364C18001F916E /* UIImage+qbColor.m */,
+				96B2B52722364C18001F916E /* UIImage+qbExtension.h */,
+				96B2B52022364C18001F916E /* UIImage+qbExtension.m */,
+				96B2B51A22364C18001F916E /* UILabel+qbCopy.h */,
+				96B2B52522364C18001F916E /* UILabel+qbCopy.m */,
+				96B2B51F22364C18001F916E /* UITextView+qbPlaceholder.h */,
+				96B2B52822364C18001F916E /* UITextView+qbPlaceholder.m */,
+				96B2B52322364C18001F916E /* UIView+qbFrame.h */,
+				96B2B51622364C18001F916E /* UIView+qbFrame.m */,
+				96B2B51B22364C18001F916E /* UIViewController+qbExtension.h */,
+				96B2B52422364C18001F916E /* UIViewController+qbExtension.m */,
 			);
 			path = QBCategory;
 			sourceTree = "<group>";
@@ -266,7 +253,6 @@
 				96B2B52F22364C18001F916E /* UIView+qbFrame.m in Sources */,
 				96B2B52C22364C18001F916E /* NSDictionary+Swizzle.m in Sources */,
 				96B2B53422364C18001F916E /* UIFont+qbExtension.m in Sources */,
-				96B2B50C22364822001F916E /* TestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
