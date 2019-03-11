@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UILabel+qbCopy.h"
 #import "TestObject.h"
+#import "ZHCustomCommon.h"
 
 @interface ViewController ()
 
@@ -30,6 +31,16 @@
     TestObject *obj1 = [TestObject new];
     NSLog(@"obj1 = %@",obj1);
      
+    
+    ZHLog(@"obj1 = %@",obj1);
+    
+    NSLog(@"%@",NSStringFromCGSize(zh_screen_size));
+    BOOL isIX = zh_is_iphoneX;
+    if (zh_is_iphoneX) {
+        ZHLog(@"zh_is_iphoneX");
+    } else {
+        ZHLog(@"。。。。");
+    }
     
 }
 

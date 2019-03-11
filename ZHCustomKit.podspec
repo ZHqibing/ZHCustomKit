@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZHCustomKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "A summary of ZHCustomKit."
   spec.description  = "a repository demo, is create for test for use cocoapods manager"
   spec.homepage     = "https://github.com/lovt/ZHCustomKit"  
@@ -27,6 +27,12 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'ZHCustomKit/TestObject.{h,m}'
 
+  spec.subspec "QBCategory" do |ss|
+
+    ss.source_files = 'ZHCustomKit/QBCategory/*.{h,m}'
+    ss.frameworks = 'UIKit'
+
+  end
 
 
 
