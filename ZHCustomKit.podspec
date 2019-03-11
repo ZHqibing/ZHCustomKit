@@ -23,17 +23,30 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/lovt/ZHCustomKit.git", :tag => "#{spec.version}" }
   spec.license      = { :type => "MIT", :file => "LICENSE" } 
   spec.author       = { "lovt" => "18381671632@163.com" }
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "9.0"
 
-  spec.source_files = 'ZHCustomKit/TestObject.{h,m}'
+  spec.source_files = 'ZHCustomKit/ZHCustomCommon.{h,m}'
 
+
+##  category 目录信息相关数据。
   spec.subspec "QBCategory" do |ss|
 
     ss.source_files = 'ZHCustomKit/QBCategory/*.{h,m}'
-    ss.frameworks = 'UIKit'
+    ss.frameworks   = 'UIKit'
 
   end
 
+##  设备信息相关的获取
+  spec.subspec 'DeviceInfo' do |ss|
+
+    ss.source_files = 'ZHCustomKit/DeviceInfo/*.{h,m}' 
+
+  end
+
+
+
+
+## 
 
 
 
