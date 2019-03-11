@@ -17,14 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ZHCustomKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ZHCustomKit."
+  spec.summary      = "A summary of ZHCustomKit."
   spec.description  = "a repository demo, is create for test for use cocoapods manager"
   spec.homepage     = "https://github.com/lovt/ZHCustomKit"  
-  spec.source       = { :git => "https://github.com/lovt/ZHCustomKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/lovt/ZHCustomKit.git", :tag => "0.0.1" }
   spec.license      = { :type => "MIT", :file => "LICENSE" } 
   spec.author       = { "lovt" => "18381671632@163.com" }
   spec.platform     = :ios, "8.0"
-  spec.source_files = "Framework/**/*.{h,m}"
+
+  spec.source_files = "Framework/TestObject.h"
+
+
 
 
 
