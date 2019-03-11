@@ -26,6 +26,7 @@
 		96B2B50322363DCB001F916E /* NSString+qbExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B4F322363DCB001F916E /* NSString+qbExtension.m */; };
 		96B2B50422363DCB001F916E /* UITextView+qbPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B4F522363DCB001F916E /* UITextView+qbPlaceholder.m */; };
 		96B2B50522363DCB001F916E /* UIImage+qbColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B4F822363DCB001F916E /* UIImage+qbColor.m */; };
+		96B2B50822364503001F916E /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B50722364503001F916E /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		96B2B4F622363DCB001F916E /* UIColor+qbExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+qbExtension.h"; sourceTree = "<group>"; };
 		96B2B4F722363DCB001F916E /* NSDate+qbExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+qbExtension.h"; sourceTree = "<group>"; };
 		96B2B4F822363DCB001F916E /* UIImage+qbColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+qbColor.m"; sourceTree = "<group>"; };
+		96B2B50622364503001F916E /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		96B2B50722364503001F916E /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				96B2B4DD22363DCB001F916E /* QBSwizzing */,
 				96B2B4E222363DCB001F916E /* QBCategory */,
+				96B2B50622364503001F916E /* TestObject.h */,
+				96B2B50722364503001F916E /* TestObject.m */,
 			);
 			name = Framework;
 			path = ../Framework;
@@ -243,6 +248,7 @@
 				96B2B4FE22363DCB001F916E /* UIImage+qbExtension.m in Sources */,
 				96B2B50522363DCB001F916E /* UIImage+qbColor.m in Sources */,
 				96B2B50222363DCB001F916E /* UILabel+qbCopy.m in Sources */,
+				96B2B50822364503001F916E /* TestObject.m in Sources */,
 				96B2B50422363DCB001F916E /* UITextView+qbPlaceholder.m in Sources */,
 				96B2B50122363DCB001F916E /* UIViewController+qbExtension.m in Sources */,
 				96B2B4FC22363DCB001F916E /* NSDate+qbExtension.m in Sources */,

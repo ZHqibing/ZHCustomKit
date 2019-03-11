@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UILabel+qbCopy.h"
+#import "TestObject.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,10 @@
     label.text = @"this is a label。";
     
     label.isCopyable = YES;
+    
+    TestObject *obj1 = [TestObject new];
+    NSLog(@"obj1 = %@",obj1);
+    
     
 }
 
