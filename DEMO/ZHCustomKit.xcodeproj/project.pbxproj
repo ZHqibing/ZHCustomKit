@@ -30,6 +30,13 @@
 		96B2B53F223651CC001F916E /* CD_KeyChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B53B223651CC001F916E /* CD_KeyChainManager.m */; };
 		96B2B540223651CC001F916E /* CD_DeviceInfoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B53E223651CC001F916E /* CD_DeviceInfoCommon.m */; };
 		96B2B54322365263001F916E /* ZHCustomCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B54222365263001F916E /* ZHCustomCommon.m */; };
+		96B2B54B22374574001F916E /* UIView+zhLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B54A22374574001F916E /* UIView+zhLoading.m */; };
+		96B2B54E223748F8001F916E /* ZHLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B54D223748F8001F916E /* ZHLoadingView.m */; };
+		96B2B5532237599A001F916E /* UIScrollView+zhEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B5522237599A001F916E /* UIScrollView+zhEmpty.m */; };
+		96B2B55622375BDB001F916E /* ZHEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B55522375BDB001F916E /* ZHEmptyView.m */; };
+		96B2B559223774D7001F916E /* NSFileManager+qbExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B558223774D7001F916E /* NSFileManager+qbExtension.m */; };
+		96B2B55B22378672001F916E /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B2B55A22378671001F916E /* 005.png */; };
+		96B2B55E22379412001F916E /* HZAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B55D22379412001F916E /* HZAudioRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +84,19 @@
 		96B2B53E223651CC001F916E /* CD_DeviceInfoCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CD_DeviceInfoCommon.m; sourceTree = "<group>"; };
 		96B2B54122365263001F916E /* ZHCustomCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHCustomCommon.h; sourceTree = "<group>"; };
 		96B2B54222365263001F916E /* ZHCustomCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHCustomCommon.m; sourceTree = "<group>"; };
+		96B2B54922374574001F916E /* UIView+zhLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+zhLoading.h"; sourceTree = "<group>"; };
+		96B2B54A22374574001F916E /* UIView+zhLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+zhLoading.m"; sourceTree = "<group>"; };
+		96B2B54C223748F8001F916E /* ZHLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLoadingView.h; sourceTree = "<group>"; };
+		96B2B54D223748F8001F916E /* ZHLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLoadingView.m; sourceTree = "<group>"; };
+		96B2B5512237599A001F916E /* UIScrollView+zhEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+zhEmpty.h"; sourceTree = "<group>"; };
+		96B2B5522237599A001F916E /* UIScrollView+zhEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+zhEmpty.m"; sourceTree = "<group>"; };
+		96B2B55422375BDB001F916E /* ZHEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHEmptyView.h; sourceTree = "<group>"; };
+		96B2B55522375BDB001F916E /* ZHEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHEmptyView.m; sourceTree = "<group>"; };
+		96B2B557223774D7001F916E /* NSFileManager+qbExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+qbExtension.h"; sourceTree = "<group>"; };
+		96B2B558223774D7001F916E /* NSFileManager+qbExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+qbExtension.m"; sourceTree = "<group>"; };
+		96B2B55A22378671001F916E /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
+		96B2B55C22379412001F916E /* HZAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZAudioRecorder.h; sourceTree = "<group>"; };
+		96B2B55D22379412001F916E /* HZAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAudioRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +134,7 @@
 				96B2B4C72236387F001F916E /* AppDelegate.m */,
 				96B2B4C92236387F001F916E /* ViewController.h */,
 				96B2B4CA2236387F001F916E /* ViewController.m */,
+				96B2B55A22378671001F916E /* 005.png */,
 				96B2B51322364C18001F916E /* TestObject.h */,
 				96B2B51422364C18001F916E /* TestObject.m */,
 				96B2B4CC2236387F001F916E /* Main.storyboard */,
@@ -128,6 +149,8 @@
 		96B2B50D22364C18001F916E /* ZHCustomKit */ = {
 			isa = PBXGroup;
 			children = (
+				96B2B5482237451F001F916E /* LoadingAndEmpt */,
+				96B2B547223744B3001F916E /* AVFile */,
 				96B2B53A223651CC001F916E /* DeviceInfo */,
 				96B2B50E22364C18001F916E /* QBSwizzing */,
 				96B2B51522364C18001F916E /* QBCategory */,
@@ -174,6 +197,8 @@
 				96B2B51622364C18001F916E /* UIView+qbFrame.m */,
 				96B2B51B22364C18001F916E /* UIViewController+qbExtension.h */,
 				96B2B52422364C18001F916E /* UIViewController+qbExtension.m */,
+				96B2B557223774D7001F916E /* NSFileManager+qbExtension.h */,
+				96B2B558223774D7001F916E /* NSFileManager+qbExtension.m */,
 			);
 			path = QBCategory;
 			sourceTree = "<group>";
@@ -187,6 +212,30 @@
 				96B2B53B223651CC001F916E /* CD_KeyChainManager.m */,
 			);
 			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		96B2B547223744B3001F916E /* AVFile */ = {
+			isa = PBXGroup;
+			children = (
+				96B2B55C22379412001F916E /* HZAudioRecorder.h */,
+				96B2B55D22379412001F916E /* HZAudioRecorder.m */,
+			);
+			path = AVFile;
+			sourceTree = "<group>";
+		};
+		96B2B5482237451F001F916E /* LoadingAndEmpt */ = {
+			isa = PBXGroup;
+			children = (
+				96B2B54922374574001F916E /* UIView+zhLoading.h */,
+				96B2B54A22374574001F916E /* UIView+zhLoading.m */,
+				96B2B54C223748F8001F916E /* ZHLoadingView.h */,
+				96B2B54D223748F8001F916E /* ZHLoadingView.m */,
+				96B2B5512237599A001F916E /* UIScrollView+zhEmpty.h */,
+				96B2B5522237599A001F916E /* UIScrollView+zhEmpty.m */,
+				96B2B55422375BDB001F916E /* ZHEmptyView.h */,
+				96B2B55522375BDB001F916E /* ZHEmptyView.m */,
+			);
+			path = LoadingAndEmpt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +298,7 @@
 				96B2B4D322363881001F916E /* LaunchScreen.storyboard in Resources */,
 				96B2B4D022363881001F916E /* Assets.xcassets in Resources */,
 				96B2B4CE2236387F001F916E /* Main.storyboard in Resources */,
+				96B2B55B22378672001F916E /* 005.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +316,22 @@
 				96B2B4CB2236387F001F916E /* ViewController.m in Sources */,
 				96B2B52D22364C18001F916E /* NSArray+Swizzing.m in Sources */,
 				96B2B53722364C18001F916E /* NSString+qbExtension.m in Sources */,
+				96B2B559223774D7001F916E /* NSFileManager+qbExtension.m in Sources */,
+				96B2B54E223748F8001F916E /* ZHLoadingView.m in Sources */,
 				96B2B53822364C18001F916E /* UITextView+qbPlaceholder.m in Sources */,
 				96B2B4D622363881001F916E /* main.m in Sources */,
 				96B2B52E22364C18001F916E /* TestObject.m in Sources */,
+				96B2B55E22379412001F916E /* HZAudioRecorder.m in Sources */,
 				96B2B53222364C18001F916E /* UIImage+qbExtension.m in Sources */,
+				96B2B54B22374574001F916E /* UIView+zhLoading.m in Sources */,
 				96B2B4C82236387F001F916E /* AppDelegate.m in Sources */,
 				96B2B53922364C18001F916E /* UIImage+qbColor.m in Sources */,
 				96B2B54322365263001F916E /* ZHCustomCommon.m in Sources */,
 				96B2B53122364C18001F916E /* UIColor+qbExtension.m in Sources */,
+				96B2B5532237599A001F916E /* UIScrollView+zhEmpty.m in Sources */,
 				96B2B53322364C18001F916E /* UIButton+qbLayoutInset.m in Sources */,
 				96B2B53622364C18001F916E /* UILabel+qbCopy.m in Sources */,
+				96B2B55622375BDB001F916E /* ZHEmptyView.m in Sources */,
 				96B2B52F22364C18001F916E /* UIView+qbFrame.m in Sources */,
 				96B2B52C22364C18001F916E /* NSDictionary+Swizzle.m in Sources */,
 				96B2B53422364C18001F916E /* UIFont+qbExtension.m in Sources */,

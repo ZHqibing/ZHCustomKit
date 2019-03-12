@@ -11,7 +11,7 @@
 @interface UIImage (qbExtension)
 
 ///
--(UIImage*) scaleImageWithSize:(CGSize)size;
+- (UIImage *)scaleImageWithSize:(CGSize)size;
 
 /// 给图片加圆角（外圈添加）
 - (UIImage *)circleImageWithBorderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;

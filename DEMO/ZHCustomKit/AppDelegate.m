@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *home = NSHomeDirectory();
+    
+    NSLog(@"home = %@",home);
+    
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [ud setObject:@"test" forKey:@"testKey"];
+    
+    
     return YES;
 }
 
