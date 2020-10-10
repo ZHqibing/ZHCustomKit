@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96617497223A5645000532D8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 96617496223A5645000532D8 /* Person.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9661749A223DF09F000532D8 /* MRCTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96617499223DF09F000532D8 /* MRCTestModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9661749D223DF122000532D8 /* ARCTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9661749C223DF122000532D8 /* ARCTestModel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		966174A0223E17BA000532D8 /* msgSendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9661749F223E17BA000532D8 /* msgSendModel.m */; };
+		966174A3223E3823000532D8 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 966174A2223E3823000532D8 /* Woman.m */; };
+		966174A7223E42B9000532D8 /* NSObject+qbAutoArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 966174A6223E42B9000532D8 /* NSObject+qbAutoArchive.m */; };
 		96B2B4C82236387F001F916E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B4C72236387F001F916E /* AppDelegate.m */; };
 		96B2B4CB2236387F001F916E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B4CA2236387F001F916E /* ViewController.m */; };
 		96B2B4CE2236387F001F916E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B2B4CC2236387F001F916E /* Main.storyboard */; };
@@ -37,9 +43,40 @@
 		96B2B559223774D7001F916E /* NSFileManager+qbExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B558223774D7001F916E /* NSFileManager+qbExtension.m */; };
 		96B2B55B22378672001F916E /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B2B55A22378671001F916E /* 005.png */; };
 		96B2B55E22379412001F916E /* HZAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B2B55D22379412001F916E /* HZAudioRecorder.m */; };
+		96C0E7E0225F14EB00D8F71A /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0E7DE225F14EB00D8F71A /* ListViewController.m */; };
+		96C0E7E1225F14EB00D8F71A /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C0E7DF225F14EB00D8F71A /* ListViewController.xib */; };
+		96C0E7E4225F16BA00D8F71A /* ZHSystemCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0E7E3225F16BA00D8F71A /* ZHSystemCameraViewController.m */; };
+		96CA39A7224088630089EF4E /* ArchiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39A6224088630089EF4E /* ArchiveModel.m */; };
+		96CA39AA2240A9690089EF4E /* NSObject+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39A92240A9690089EF4E /* NSObject+Method.m */; };
+		96CA39AF2240D3B20089EF4E /* ThreadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39AE2240D3B20089EF4E /* ThreadModel.m */; };
+		96CA39B4224219500089EF4E /* copyTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39B3224219500089EF4E /* copyTestModel.m */; };
+		96CA39B7224219610089EF4E /* assinTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39B6224219610089EF4E /* assinTestModel.m */; };
+		96CA39BA224219760089EF4E /* weakTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39B9224219760089EF4E /* weakTestModel.m */; };
+		96CA39C3224324E80089EF4E /* TestXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39C1224324E80089EF4E /* TestXibViewController.m */; };
+		96CA39C4224324E80089EF4E /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CA39C2224324E80089EF4E /* TestXibViewController.xib */; };
+		96CA39C62243251B0089EF4E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39C52243251B0089EF4E /* TestViewController.m */; };
+		96CA39CA224328610089EF4E /* TimerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39C8224328610089EF4E /* TimerTestViewController.m */; };
+		96CA39CB224328610089EF4E /* TimerTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CA39C9224328610089EF4E /* TimerTestViewController.xib */; };
+		96CA39CF2243290E0089EF4E /* TimerActionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39CE2243290E0089EF4E /* TimerActionModel.m */; };
+		96CA39D922432C0C0089EF4E /* CricleModelTestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39D822432C0C0089EF4E /* CricleModelTestA.m */; };
+		96CA39DC22432C190089EF4E /* CricleModelTestB.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39DB22432C190089EF4E /* CricleModelTestB.m */; };
+		96CA39E4224330520089EF4E /* UIButton+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39E3224330520089EF4E /* UIButton+Cate.m */; };
+		96CA39E922433DC40089EF4E /* LayerTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CA39E822433DC40089EF4E /* LayerTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96617495223A5645000532D8 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		96617496223A5645000532D8 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		96617498223DF09F000532D8 /* MRCTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCTestModel.h; sourceTree = "<group>"; };
+		96617499223DF09F000532D8 /* MRCTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCTestModel.m; sourceTree = "<group>"; };
+		9661749B223DF122000532D8 /* ARCTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCTestModel.h; sourceTree = "<group>"; };
+		9661749C223DF122000532D8 /* ARCTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCTestModel.m; sourceTree = "<group>"; };
+		9661749E223E17BA000532D8 /* msgSendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = msgSendModel.h; sourceTree = "<group>"; };
+		9661749F223E17BA000532D8 /* msgSendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = msgSendModel.m; sourceTree = "<group>"; };
+		966174A1223E3823000532D8 /* Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		966174A2223E3823000532D8 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		966174A5223E42B9000532D8 /* NSObject+qbAutoArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+qbAutoArchive.h"; sourceTree = "<group>"; };
+		966174A6223E42B9000532D8 /* NSObject+qbAutoArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+qbAutoArchive.m"; sourceTree = "<group>"; };
 		96B2B4C32236387F001F916E /* ZHCustomKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHCustomKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B2B4C62236387F001F916E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96B2B4C72236387F001F916E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +134,45 @@
 		96B2B55A22378671001F916E /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
 		96B2B55C22379412001F916E /* HZAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZAudioRecorder.h; sourceTree = "<group>"; };
 		96B2B55D22379412001F916E /* HZAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAudioRecorder.m; sourceTree = "<group>"; };
+		96B2B55F2237B744001F916E /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		96C0E7DD225F14EB00D8F71A /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		96C0E7DE225F14EB00D8F71A /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		96C0E7DF225F14EB00D8F71A /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		96C0E7E2225F16BA00D8F71A /* ZHSystemCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHSystemCameraViewController.h; sourceTree = "<group>"; };
+		96C0E7E3225F16BA00D8F71A /* ZHSystemCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHSystemCameraViewController.m; sourceTree = "<group>"; };
+		96CA39A5224088630089EF4E /* ArchiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveModel.h; sourceTree = "<group>"; };
+		96CA39A6224088630089EF4E /* ArchiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveModel.m; sourceTree = "<group>"; };
+		96CA39A82240A9690089EF4E /* NSObject+Method.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Method.h"; sourceTree = "<group>"; };
+		96CA39A92240A9690089EF4E /* NSObject+Method.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Method.m"; sourceTree = "<group>"; };
+		96CA39AD2240D3B20089EF4E /* ThreadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadModel.h; sourceTree = "<group>"; };
+		96CA39AE2240D3B20089EF4E /* ThreadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadModel.m; sourceTree = "<group>"; };
+		96CA39B02240DD3E0089EF4E /* CustomProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomProtocol.h; sourceTree = "<group>"; };
+		96CA39B2224219500089EF4E /* copyTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = copyTestModel.h; sourceTree = "<group>"; };
+		96CA39B3224219500089EF4E /* copyTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = copyTestModel.m; sourceTree = "<group>"; };
+		96CA39B5224219610089EF4E /* assinTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = assinTestModel.h; sourceTree = "<group>"; };
+		96CA39B6224219610089EF4E /* assinTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = assinTestModel.m; sourceTree = "<group>"; };
+		96CA39B8224219760089EF4E /* weakTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weakTestModel.h; sourceTree = "<group>"; };
+		96CA39B9224219760089EF4E /* weakTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weakTestModel.m; sourceTree = "<group>"; };
+		96CA39C0224324E80089EF4E /* TestXibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestXibViewController.h; sourceTree = "<group>"; };
+		96CA39C1224324E80089EF4E /* TestXibViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestXibViewController.m; sourceTree = "<group>"; };
+		96CA39C2224324E80089EF4E /* TestXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestXibViewController.xib; sourceTree = "<group>"; };
+		96CA39C52243251B0089EF4E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		96CA39C7224328610089EF4E /* TimerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTestViewController.h; sourceTree = "<group>"; };
+		96CA39C8224328610089EF4E /* TimerTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTestViewController.m; sourceTree = "<group>"; };
+		96CA39C9224328610089EF4E /* TimerTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerTestViewController.xib; sourceTree = "<group>"; };
+		96CA39CD2243290E0089EF4E /* TimerActionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerActionModel.h; sourceTree = "<group>"; };
+		96CA39CE2243290E0089EF4E /* TimerActionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerActionModel.m; sourceTree = "<group>"; };
+		96CA39D722432C0C0089EF4E /* CricleModelTestA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricleModelTestA.h; sourceTree = "<group>"; };
+		96CA39D822432C0C0089EF4E /* CricleModelTestA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricleModelTestA.m; sourceTree = "<group>"; };
+		96CA39DA22432C190089EF4E /* CricleModelTestB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricleModelTestB.h; sourceTree = "<group>"; };
+		96CA39DB22432C190089EF4E /* CricleModelTestB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricleModelTestB.m; sourceTree = "<group>"; };
+		96CA39E12243303C0089EF4E /* UIButton+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Ext.h"; sourceTree = "<group>"; };
+		96CA39E2224330520089EF4E /* UIButton+Cate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Cate.h"; sourceTree = "<group>"; };
+		96CA39E3224330520089EF4E /* UIButton+Cate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Cate.m"; sourceTree = "<group>"; };
+		96CA39E5224330730089EF4E /* TestProto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProto.h; sourceTree = "<group>"; };
+		96CA39E6224330860089EF4E /* NSObject+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Ext.h"; sourceTree = "<group>"; };
+		96CA39E722433DC40089EF4E /* LayerTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerTestView.h; sourceTree = "<group>"; };
+		96CA39E822433DC40089EF4E /* LayerTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +186,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		966174A4223E4239000532D8 /* AutomaticArchive */ = {
+			isa = PBXGroup;
+			children = (
+				96CA39A5224088630089EF4E /* ArchiveModel.h */,
+				96CA39A6224088630089EF4E /* ArchiveModel.m */,
+				96CA39A82240A9690089EF4E /* NSObject+Method.h */,
+				96CA39A92240A9690089EF4E /* NSObject+Method.m */,
+			);
+			path = AutomaticArchive;
+			sourceTree = "<group>";
+		};
 		96B2B4BA2236387F001F916E = {
 			isa = PBXGroup;
 			children = (
@@ -134,9 +221,13 @@
 				96B2B4C72236387F001F916E /* AppDelegate.m */,
 				96B2B4C92236387F001F916E /* ViewController.h */,
 				96B2B4CA2236387F001F916E /* ViewController.m */,
+				96B2B55F2237B744001F916E /* TestViewController.h */,
+				96CA39C52243251B0089EF4E /* TestViewController.m */,
+				96C0E7DD225F14EB00D8F71A /* ListViewController.h */,
+				96C0E7DE225F14EB00D8F71A /* ListViewController.m */,
+				96C0E7DF225F14EB00D8F71A /* ListViewController.xib */,
+				96CA39AB2240D37A0089EF4E /* Objective_C */,
 				96B2B55A22378671001F916E /* 005.png */,
-				96B2B51322364C18001F916E /* TestObject.h */,
-				96B2B51422364C18001F916E /* TestObject.m */,
 				96B2B4CC2236387F001F916E /* Main.storyboard */,
 				96B2B4CF22363881001F916E /* Assets.xcassets */,
 				96B2B4D122363881001F916E /* LaunchScreen.storyboard */,
@@ -193,6 +284,8 @@
 				96B2B52522364C18001F916E /* UILabel+qbCopy.m */,
 				96B2B51F22364C18001F916E /* UITextView+qbPlaceholder.h */,
 				96B2B52822364C18001F916E /* UITextView+qbPlaceholder.m */,
+				966174A5223E42B9000532D8 /* NSObject+qbAutoArchive.h */,
+				966174A6223E42B9000532D8 /* NSObject+qbAutoArchive.m */,
 				96B2B52322364C18001F916E /* UIView+qbFrame.h */,
 				96B2B51622364C18001F916E /* UIView+qbFrame.m */,
 				96B2B51B22364C18001F916E /* UIViewController+qbExtension.h */,
@@ -236,6 +329,96 @@
 				96B2B55522375BDB001F916E /* ZHEmptyView.m */,
 			);
 			path = LoadingAndEmpt;
+			sourceTree = "<group>";
+		};
+		96C0E7DC225F145C00D8F71A /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				96C0E7E2225F16BA00D8F71A /* ZHSystemCameraViewController.h */,
+				96C0E7E3225F16BA00D8F71A /* ZHSystemCameraViewController.m */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		96CA39AB2240D37A0089EF4E /* Objective_C */ = {
+			isa = PBXGroup;
+			children = (
+				96C0E7DC225F145C00D8F71A /* AVFoundation */,
+				966174A4223E4239000532D8 /* AutomaticArchive */,
+				96B2B51322364C18001F916E /* TestObject.h */,
+				96B2B51422364C18001F916E /* TestObject.m */,
+				96CA39B02240DD3E0089EF4E /* CustomProtocol.h */,
+				96CA39B1224219370089EF4E /* 属性修饰符 */,
+				96CA39AC2240D39B0089EF4E /* 多线程 */,
+				96617498223DF09F000532D8 /* MRCTestModel.h */,
+				96617499223DF09F000532D8 /* MRCTestModel.m */,
+				96CA39D022432A840089EF4E /* 循环引用 */,
+				96CA39CC224328E50089EF4E /* 定时器 */,
+				9661749B223DF122000532D8 /* ARCTestModel.h */,
+				9661749C223DF122000532D8 /* ARCTestModel.m */,
+				9661749E223E17BA000532D8 /* msgSendModel.h */,
+				9661749F223E17BA000532D8 /* msgSendModel.m */,
+				96617495223A5645000532D8 /* Person.h */,
+				96617496223A5645000532D8 /* Person.m */,
+				966174A1223E3823000532D8 /* Woman.h */,
+				966174A2223E3823000532D8 /* Woman.m */,
+			);
+			path = Objective_C;
+			sourceTree = "<group>";
+		};
+		96CA39AC2240D39B0089EF4E /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				96CA39AD2240D3B20089EF4E /* ThreadModel.h */,
+				96CA39AE2240D3B20089EF4E /* ThreadModel.m */,
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
+		96CA39B1224219370089EF4E /* 属性修饰符 */ = {
+			isa = PBXGroup;
+			children = (
+				96CA39B2224219500089EF4E /* copyTestModel.h */,
+				96CA39B3224219500089EF4E /* copyTestModel.m */,
+				96CA39B5224219610089EF4E /* assinTestModel.h */,
+				96CA39B6224219610089EF4E /* assinTestModel.m */,
+				96CA39B8224219760089EF4E /* weakTestModel.h */,
+				96CA39B9224219760089EF4E /* weakTestModel.m */,
+			);
+			path = "属性修饰符";
+			sourceTree = "<group>";
+		};
+		96CA39CC224328E50089EF4E /* 定时器 */ = {
+			isa = PBXGroup;
+			children = (
+				96CA39C0224324E80089EF4E /* TestXibViewController.h */,
+				96CA39C1224324E80089EF4E /* TestXibViewController.m */,
+				96CA39C2224324E80089EF4E /* TestXibViewController.xib */,
+				96CA39C7224328610089EF4E /* TimerTestViewController.h */,
+				96CA39C8224328610089EF4E /* TimerTestViewController.m */,
+				96CA39C9224328610089EF4E /* TimerTestViewController.xib */,
+				96CA39CD2243290E0089EF4E /* TimerActionModel.h */,
+				96CA39CE2243290E0089EF4E /* TimerActionModel.m */,
+				96CA39E722433DC40089EF4E /* LayerTestView.h */,
+				96CA39E822433DC40089EF4E /* LayerTestView.m */,
+			);
+			path = "定时器";
+			sourceTree = "<group>";
+		};
+		96CA39D022432A840089EF4E /* 循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				96CA39D722432C0C0089EF4E /* CricleModelTestA.h */,
+				96CA39D822432C0C0089EF4E /* CricleModelTestA.m */,
+				96CA39DA22432C190089EF4E /* CricleModelTestB.h */,
+				96CA39DB22432C190089EF4E /* CricleModelTestB.m */,
+				96CA39E5224330730089EF4E /* TestProto.h */,
+				96CA39E6224330860089EF4E /* NSObject+Ext.h */,
+				96CA39E12243303C0089EF4E /* UIButton+Ext.h */,
+				96CA39E2224330520089EF4E /* UIButton+Cate.h */,
+				96CA39E3224330520089EF4E /* UIButton+Cate.m */,
+			);
+			path = "循环引用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +478,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CA39CB224328610089EF4E /* TimerTestViewController.xib in Resources */,
+				96CA39C4224324E80089EF4E /* TestXibViewController.xib in Resources */,
+				96C0E7E1225F14EB00D8F71A /* ListViewController.xib in Resources */,
 				96B2B4D322363881001F916E /* LaunchScreen.storyboard in Resources */,
 				96B2B4D022363881001F916E /* Assets.xcassets in Resources */,
 				96B2B4CE2236387F001F916E /* Main.storyboard in Resources */,
@@ -310,30 +496,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B2B53F223651CC001F916E /* CD_KeyChainManager.m in Sources */,
+				96CA39AF2240D3B20089EF4E /* ThreadModel.m in Sources */,
 				96B2B53022364C18001F916E /* NSDate+qbExtension.m in Sources */,
+				96617497223A5645000532D8 /* Person.m in Sources */,
+				96CA39E4224330520089EF4E /* UIButton+Cate.m in Sources */,
 				96B2B540223651CC001F916E /* CD_DeviceInfoCommon.m in Sources */,
+				966174A3223E3823000532D8 /* Woman.m in Sources */,
 				96B2B53522364C18001F916E /* UIViewController+qbExtension.m in Sources */,
 				96B2B4CB2236387F001F916E /* ViewController.m in Sources */,
 				96B2B52D22364C18001F916E /* NSArray+Swizzing.m in Sources */,
+				96CA39C3224324E80089EF4E /* TestXibViewController.m in Sources */,
 				96B2B53722364C18001F916E /* NSString+qbExtension.m in Sources */,
+				96CA39CA224328610089EF4E /* TimerTestViewController.m in Sources */,
+				96CA39D922432C0C0089EF4E /* CricleModelTestA.m in Sources */,
 				96B2B559223774D7001F916E /* NSFileManager+qbExtension.m in Sources */,
 				96B2B54E223748F8001F916E /* ZHLoadingView.m in Sources */,
+				9661749A223DF09F000532D8 /* MRCTestModel.m in Sources */,
+				96CA39C62243251B0089EF4E /* TestViewController.m in Sources */,
 				96B2B53822364C18001F916E /* UITextView+qbPlaceholder.m in Sources */,
 				96B2B4D622363881001F916E /* main.m in Sources */,
+				96CA39A7224088630089EF4E /* ArchiveModel.m in Sources */,
 				96B2B52E22364C18001F916E /* TestObject.m in Sources */,
 				96B2B55E22379412001F916E /* HZAudioRecorder.m in Sources */,
 				96B2B53222364C18001F916E /* UIImage+qbExtension.m in Sources */,
 				96B2B54B22374574001F916E /* UIView+zhLoading.m in Sources */,
+				96CA39B7224219610089EF4E /* assinTestModel.m in Sources */,
+				96CA39B4224219500089EF4E /* copyTestModel.m in Sources */,
 				96B2B4C82236387F001F916E /* AppDelegate.m in Sources */,
+				96CA39E922433DC40089EF4E /* LayerTestView.m in Sources */,
 				96B2B53922364C18001F916E /* UIImage+qbColor.m in Sources */,
+				96C0E7E0225F14EB00D8F71A /* ListViewController.m in Sources */,
+				96CA39BA224219760089EF4E /* weakTestModel.m in Sources */,
 				96B2B54322365263001F916E /* ZHCustomCommon.m in Sources */,
+				96CA39DC22432C190089EF4E /* CricleModelTestB.m in Sources */,
 				96B2B53122364C18001F916E /* UIColor+qbExtension.m in Sources */,
+				96C0E7E4225F16BA00D8F71A /* ZHSystemCameraViewController.m in Sources */,
 				96B2B5532237599A001F916E /* UIScrollView+zhEmpty.m in Sources */,
+				9661749D223DF122000532D8 /* ARCTestModel.m in Sources */,
+				966174A0223E17BA000532D8 /* msgSendModel.m in Sources */,
 				96B2B53322364C18001F916E /* UIButton+qbLayoutInset.m in Sources */,
 				96B2B53622364C18001F916E /* UILabel+qbCopy.m in Sources */,
 				96B2B55622375BDB001F916E /* ZHEmptyView.m in Sources */,
 				96B2B52F22364C18001F916E /* UIView+qbFrame.m in Sources */,
+				96CA39CF2243290E0089EF4E /* TimerActionModel.m in Sources */,
+				966174A7223E42B9000532D8 /* NSObject+qbAutoArchive.m in Sources */,
 				96B2B52C22364C18001F916E /* NSDictionary+Swizzle.m in Sources */,
+				96CA39AA2240A9690089EF4E /* NSObject+Method.m in Sources */,
 				96B2B53422364C18001F916E /* UIFont+qbExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,8 +684,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_LINK_OBJC_RUNTIME = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E8B62FMRK;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ZHCustomKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,8 +706,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_LINK_OBJC_RUNTIME = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E8B62FMRK;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ZHCustomKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

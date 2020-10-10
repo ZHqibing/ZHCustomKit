@@ -36,6 +36,7 @@ Pod::Spec.new do |spec|
 
   end
 
+
 ##  设备信息相关的获取
   spec.subspec 'DeviceInfo' do |ss|
 
@@ -44,6 +45,8 @@ Pod::Spec.new do |spec|
   end
 
 
+##  第三方依赖库
+##  spec.dependency   "AFNetworking"
 
 
 ## 

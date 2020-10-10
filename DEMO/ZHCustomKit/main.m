@@ -11,6 +11,10 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        NSLog(@"testMain");
+        
+//        UIApplicationMain(<#int argc#>, <#char * _Nullable * _Nonnull argv#>, <#NSString * _Nullable principalClassName#>, <#NSString * _Nullable delegateClassName#>)
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

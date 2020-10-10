@@ -1,8 +1,8 @@
 //
-//  TestObject.h
+//  weakTestModel.h
 //  ZHCustomKit
 //
-//  Created by sobeycloud on 2019/3/11.
+//  Created by sobeycloud on 2019/3/20.
 //  Copyright © 2019年 sobeycloud. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestObject : NSObject
+@interface weakTestModel : NSObject
 
 @end
 
